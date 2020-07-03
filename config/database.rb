@@ -18,7 +18,7 @@ configure do
       host: db.host,
       username: db.user,
       password: db.password,
-      database: db.pathp[1..-1],
+      database: db.path[1..-1],
       encoding: 'utf8'
 
     }
