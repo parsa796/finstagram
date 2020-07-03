@@ -1,3 +1,5 @@
+image:
+  file: /.gitpod.Dockerfile
 vscode:
   extensions:
     - CraigMaslowski.erb@0.0.1:5znDha/nn0PphUrpB9a5Nw==
