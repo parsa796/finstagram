@@ -11,7 +11,7 @@ configure do
     }
   
   else
-    db_url = 'postgres://[your_postgres_url here]'
+    db_url = 'postgres://feuclndcultqwv:c4428dcf85fe8d46164742abc99e3e12e1b9d0dc5a4dd747e185d55a6b47563f@ec2-52-0-155-79.compute-1.amazonaws.com:5432/ddk77dv7qcvrjl'
     db = URI.parse(ENV['DATABASE_URL'] || db_url)
     set :database, {
       adapter: "postgresql",
